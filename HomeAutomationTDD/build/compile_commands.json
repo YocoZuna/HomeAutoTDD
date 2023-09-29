@@ -1,0 +1,42 @@
+[
+{
+  "directory": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/UnityFrameWork",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/UnityFrameWork.dir/includes_C.rsp -g -o CMakeFiles\\UnityFrameWork.dir\\unity.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\HomeAutomationTDD\\UnityFrameWork\\unity.c\"",
+  "file": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/UnityFrameWork/unity.c"
+},
+{
+  "directory": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/UnityFrameWork",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/UnityFrameWork.dir/includes_C.rsp -g -o CMakeFiles\\UnityFrameWork.dir\\unity_fixture.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\HomeAutomationTDD\\UnityFrameWork\\unity_fixture.c\"",
+  "file": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/UnityFrameWork/unity_fixture.c"
+},
+{
+  "directory": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/UnityFrameWork",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/UnityFrameWork.dir/includes_C.rsp -g -o CMakeFiles\\UnityFrameWork.dir\\unity_memory.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\HomeAutomationTDD\\UnityFrameWork\\unity_memory.c\"",
+  "file": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/UnityFrameWork/unity_memory.c"
+},
+{
+  "directory": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/Src",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/Src.dir/includes_C.rsp -g -o CMakeFiles\\Src.dir\\TestRunner.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\HomeAutomationTDD\\Src\\TestRunner.c\"",
+  "file": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/Src/TestRunner.c"
+},
+{
+  "directory": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/Includs",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/Includs.dir/includes_C.rsp -g -o CMakeFiles\\Includs.dir\\Src\\Dumy.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\HomeAutomationTDD\\Includs\\Src\\Dumy.c\"",
+  "file": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/Includs/Src/Dumy.c"
+},
+{
+  "directory": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/Test",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/Test.dir/includes_C.rsp -g -o CMakeFiles\\Test.dir\\Src\\LightControllerSpy.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\HomeAutomationTDD\\Test\\Src\\LightControllerSpy.c\"",
+  "file": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/Test/Src/LightControllerSpy.c"
+},
+{
+  "directory": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/Test",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/Test.dir/includes_C.rsp -g -o CMakeFiles\\Test.dir\\Src\\TimeServiceFake.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\HomeAutomationTDD\\Test\\Src\\TimeServiceFake.c\"",
+  "file": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/Test/Src/TimeServiceFake.c"
+},
+{
+  "directory": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/Test",
+  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/Test.dir/includes_C.rsp -g -o CMakeFiles\\Test.dir\\Src\\LightScheduler.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\HomeAutomationTDD\\Test\\Src\\LightScheduler.c\"",
+  "file": "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/Test/Src/LightScheduler.c"
+}
+]

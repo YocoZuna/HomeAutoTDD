@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "unity.h": "c",
+        "testfixture.h": "c",
+        "lightcontrollerspy.h": "c",
+        "stdint.h": "c"
+    }
+}

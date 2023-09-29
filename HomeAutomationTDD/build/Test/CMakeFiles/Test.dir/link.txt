@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libTest.a CMakeFiles/Test.dir/Src/LightControllerSpy.c.obj CMakeFiles/Test.dir/Src/TimeServiceFake.c.obj CMakeFiles/Test.dir/Src/LightScheduler.c.obj
+C:\msys64\mingw64\bin\ranlib.exe libTest.a
