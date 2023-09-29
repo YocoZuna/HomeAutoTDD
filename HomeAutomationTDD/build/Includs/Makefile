@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD"
+CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build"
+CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build"
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/CPackSourceConfig.cmake"
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake "C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -116,14 +116,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\CMakeFiles" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\Includs\\CMakeFiles\progress.marks"
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\CMakeFiles" 0
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\CMakeFiles" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\Includs\\CMakeFiles\progress.marks"
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/clean
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/clean
 .PHONY : clean
 
 # The main clean target
@@ -132,22 +132,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/preinstall
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/preinstall
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Includs/CMakeFiles/Includs.dir/rule:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/CMakeFiles/Includs.dir/rule
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/CMakeFiles/Includs.dir/rule
 .PHONY : Includs/CMakeFiles/Includs.dir/rule
 
 # Convenience name for target.
@@ -156,7 +156,7 @@ Includs: Includs/CMakeFiles/Includs.dir/rule
 
 # fast build rule for target.
 Includs/fast:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/build
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/build
 .PHONY : Includs/fast
 
 Src/Dumy.obj: Src/Dumy.c.obj
@@ -164,7 +164,7 @@ Src/Dumy.obj: Src/Dumy.c.obj
 
 # target to build an object file
 Src/Dumy.c.obj:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj
 .PHONY : Src/Dumy.c.obj
 
 Src/Dumy.i: Src/Dumy.c.i
@@ -172,7 +172,7 @@ Src/Dumy.i: Src/Dumy.c.i
 
 # target to preprocess a source file
 Src/Dumy.c.i:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/Dumy.c.i
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/Dumy.c.i
 .PHONY : Src/Dumy.c.i
 
 Src/Dumy.s: Src/Dumy.c.s
@@ -180,7 +180,7 @@ Src/Dumy.s: Src/Dumy.c.s
 
 # target to generate assembly for a file
 Src/Dumy.c.s:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/Dumy.c.s
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/Dumy.c.s
 .PHONY : Src/Dumy.c.s
 
 # Help Target
@@ -209,6 +209,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

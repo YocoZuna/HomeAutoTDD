@@ -294,7 +294,7 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "Includs::@cd1dfde192facd1cb7a2",
-					"jsonFile" : "target-Includs-Debug-5922782577476a46ca48.json",
+					"jsonFile" : "target-Includs-Debug-af5eff71ee5ca397d430.json",
 					"name" : "Includs",
 					"projectIndex" : 0
 				},
@@ -371,21 +371,21 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "Src::@fffd7673bb2fd0d58c2a",
-					"jsonFile" : "target-Src-Debug-4361ca21284587892eca.json",
+					"jsonFile" : "target-Src-Debug-f7694744a67552f73dcd.json",
 					"name" : "Src",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "Test::@c0a5cca43b8aa79eb50e",
-					"jsonFile" : "target-Test-Debug-455308412e954389debb.json",
+					"jsonFile" : "target-Test-Debug-b1118425baf30907de60.json",
 					"name" : "Test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "UnityFrameWork::@ff4696dad963d799a492",
-					"jsonFile" : "target-UnityFrameWork-Debug-0081d25d545575ca1ffc.json",
+					"jsonFile" : "target-UnityFrameWork-Debug-0fa4ba341b88fc896a50.json",
 					"name" : "UnityFrameWork",
 					"projectIndex" : 0
 				}
@@ -395,8 +395,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build",
-		"source" : "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD"
+		"build" : "C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build",
+		"source" : "C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD"
 	},
 	"version" : 
 	{

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD"
+CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build"
+CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build"
 
 # Utility rule file for NightlySubmit.
 
@@ -81,6 +81,6 @@ CMakeFiles/NightlySubmit.dir/clean:
 .PHONY : CMakeFiles/NightlySubmit.dir/clean
 
 CMakeFiles/NightlySubmit.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\CMakeFiles\NightlySubmit.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\CMakeFiles\NightlySubmit.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/NightlySubmit.dir/depend
 

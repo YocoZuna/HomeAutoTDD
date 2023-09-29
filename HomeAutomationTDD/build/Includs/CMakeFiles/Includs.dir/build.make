@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD"
+CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build"
+CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build"
 
 # Include any dependencies generated for this target.
 include Includs/CMakeFiles/Includs.dir/depend.make
@@ -70,18 +70,18 @@ include Includs/CMakeFiles/Includs.dir/flags.make
 
 Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj: Includs/CMakeFiles/Includs.dir/flags.make
 Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj: Includs/CMakeFiles/Includs.dir/includes_C.rsp
-Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj: C:/Users/Dawid\ Zadlo/Desktop/HomeAutomationTDD/Includs/Src/Dumy.c
+Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj: C:/Users/Dawid\ Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/Includs/Src/Dumy.c
 Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj: Includs/CMakeFiles/Includs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj"
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build\Includs && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj -MF CMakeFiles\Includs.dir\Src\Dumy.c.obj.d -o CMakeFiles\Includs.dir\Src\Dumy.c.obj -c "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\Includs\Src\Dumy.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj"
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build\Includs && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj -MF CMakeFiles\Includs.dir\Src\Dumy.c.obj.d -o CMakeFiles\Includs.dir\Src\Dumy.c.obj -c "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\Includs\Src\Dumy.c"
 
 Includs/CMakeFiles/Includs.dir/Src/Dumy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Includs.dir/Src/Dumy.c.i"
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build\Includs && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\Includs\Src\Dumy.c" > CMakeFiles\Includs.dir\Src\Dumy.c.i
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build\Includs && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\Includs\Src\Dumy.c" > CMakeFiles\Includs.dir\Src\Dumy.c.i
 
 Includs/CMakeFiles/Includs.dir/Src/Dumy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Includs.dir/Src/Dumy.c.s"
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build\Includs && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\Includs\Src\Dumy.c" -o CMakeFiles\Includs.dir\Src\Dumy.c.s
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build\Includs && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\Includs\Src\Dumy.c" -o CMakeFiles\Includs.dir\Src\Dumy.c.s
 
 # Object files for target Includs
 Includs_OBJECTS = \
@@ -93,19 +93,19 @@ Includs_EXTERNAL_OBJECTS =
 Includs/libIncluds.a: Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj
 Includs/libIncluds.a: Includs/CMakeFiles/Includs.dir/build.make
 Includs/libIncluds.a: Includs/CMakeFiles/Includs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libIncluds.a"
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build\Includs && $(CMAKE_COMMAND) -P CMakeFiles\Includs.dir\cmake_clean_target.cmake
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build\Includs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Includs.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libIncluds.a"
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build\Includs && $(CMAKE_COMMAND) -P CMakeFiles\Includs.dir\cmake_clean_target.cmake
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build\Includs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Includs.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Includs/CMakeFiles/Includs.dir/build: Includs/libIncluds.a
 .PHONY : Includs/CMakeFiles/Includs.dir/build
 
 Includs/CMakeFiles/Includs.dir/clean:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build\Includs && $(CMAKE_COMMAND) -P CMakeFiles\Includs.dir\cmake_clean.cmake
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build\Includs && $(CMAKE_COMMAND) -P CMakeFiles\Includs.dir\cmake_clean.cmake
 .PHONY : Includs/CMakeFiles/Includs.dir/clean
 
 Includs/CMakeFiles/Includs.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\Includs" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\Includs" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\Includs\CMakeFiles\Includs.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\Includs" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\Includs" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\Includs\CMakeFiles\Includs.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : Includs/CMakeFiles/Includs.dir/depend
 

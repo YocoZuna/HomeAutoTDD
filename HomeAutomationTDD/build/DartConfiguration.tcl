@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD
-BuildDirectory: C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build
+SourceDirectory: C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD
+BuildDirectory: C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD"
 MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

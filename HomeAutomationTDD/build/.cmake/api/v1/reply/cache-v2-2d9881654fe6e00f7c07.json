@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build"
+			"value" : "c:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -199,10 +199,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "C:/msys64/mingw64/bin/gcc.exe"
 		},
 		{
@@ -487,7 +487,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD"
+			"value" : "C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1607,7 +1607,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build"
+			"value" : "C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build"
 		},
 		{
 			"name" : "TestCmake_IS_TOP_LEVEL",
@@ -1631,7 +1631,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD"
+			"value" : "C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD"
 		},
 		{
 			"name" : "Test_LIB_DEPENDS",

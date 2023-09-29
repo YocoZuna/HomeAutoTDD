@@ -1,11 +1,16 @@
 #include "TestFixture.h"
 
+#define TURN_OFF 0 
+#define TURN_ON 1
+#define UNUSED -1
+
 typedef struct
 {
     int id;
-    int minutefDay;
-
+    int minuteOfDay;
+    int event;
 }ScheduledLightEvent;
+
 
 enum Day {
     NONE = -1,EVERYDAY=10,WEEKDAY,WEEKEND,SUNDAY=1,MONDAY,TUESDAY,WEDENSDAY,THURSDAY,FRIDAY,SATURDAY};

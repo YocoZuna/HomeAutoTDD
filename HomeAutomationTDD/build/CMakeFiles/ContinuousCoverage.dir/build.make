@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD"
+CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build"
+CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build"
 
 # Utility rule file for ContinuousCoverage.
 
@@ -81,6 +81,6 @@ CMakeFiles/ContinuousCoverage.dir/clean:
 .PHONY : CMakeFiles/ContinuousCoverage.dir/clean
 
 CMakeFiles/ContinuousCoverage.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\CMakeFiles\ContinuousCoverage.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\CMakeFiles\ContinuousCoverage.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousCoverage.dir/depend
 

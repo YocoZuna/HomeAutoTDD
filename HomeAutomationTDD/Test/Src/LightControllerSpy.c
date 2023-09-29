@@ -60,6 +60,7 @@ TEST(LightControllerSpy,RememberTheLastLightIDControlled)
     TEST_ASSERT_EQUAL(10,LightControllerSpy_GetLastID());
     TEST_ASSERT_EQUAL(1,LightControllerSpy_GetLastState());
 }
+
 TEST_GROUP_RUNNER(LightControllerSpy)
 {
     RUN_TEST_CASE(LightControllerSpy,Create);

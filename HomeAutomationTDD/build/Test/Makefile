@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD"
+CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build"
+CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build"
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/CPackSourceConfig.cmake"
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake "C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build/CPackSourceConfig.cmake"
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -116,14 +116,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\CMakeFiles" "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\Test\\CMakeFiles\progress.marks"
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\HomeAutomationTDD\build\CMakeFiles" 0
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\CMakeFiles" "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\Test\\CMakeFiles\progress.marks"
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/clean
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/clean
 .PHONY : clean
 
 # The main clean target
@@ -132,22 +132,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/preinstall
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/preinstall
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Test/CMakeFiles/Test.dir/rule:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/CMakeFiles/Test.dir/rule
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Test/CMakeFiles/Test.dir/rule
 .PHONY : Test/CMakeFiles/Test.dir/rule
 
 # Convenience name for target.
@@ -156,7 +156,7 @@ Test: Test/CMakeFiles/Test.dir/rule
 
 # fast build rule for target.
 Test/fast:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/build
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/build
 .PHONY : Test/fast
 
 Src/LightControllerSpy.obj: Src/LightControllerSpy.c.obj
@@ -164,7 +164,7 @@ Src/LightControllerSpy.obj: Src/LightControllerSpy.c.obj
 
 # target to build an object file
 Src/LightControllerSpy.c.obj:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightControllerSpy.c.obj
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightControllerSpy.c.obj
 .PHONY : Src/LightControllerSpy.c.obj
 
 Src/LightControllerSpy.i: Src/LightControllerSpy.c.i
@@ -172,7 +172,7 @@ Src/LightControllerSpy.i: Src/LightControllerSpy.c.i
 
 # target to preprocess a source file
 Src/LightControllerSpy.c.i:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightControllerSpy.c.i
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightControllerSpy.c.i
 .PHONY : Src/LightControllerSpy.c.i
 
 Src/LightControllerSpy.s: Src/LightControllerSpy.c.s
@@ -180,7 +180,7 @@ Src/LightControllerSpy.s: Src/LightControllerSpy.c.s
 
 # target to generate assembly for a file
 Src/LightControllerSpy.c.s:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightControllerSpy.c.s
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightControllerSpy.c.s
 .PHONY : Src/LightControllerSpy.c.s
 
 Src/LightScheduler.obj: Src/LightScheduler.c.obj
@@ -188,7 +188,7 @@ Src/LightScheduler.obj: Src/LightScheduler.c.obj
 
 # target to build an object file
 Src/LightScheduler.c.obj:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightScheduler.c.obj
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightScheduler.c.obj
 .PHONY : Src/LightScheduler.c.obj
 
 Src/LightScheduler.i: Src/LightScheduler.c.i
@@ -196,7 +196,7 @@ Src/LightScheduler.i: Src/LightScheduler.c.i
 
 # target to preprocess a source file
 Src/LightScheduler.c.i:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightScheduler.c.i
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightScheduler.c.i
 .PHONY : Src/LightScheduler.c.i
 
 Src/LightScheduler.s: Src/LightScheduler.c.s
@@ -204,7 +204,7 @@ Src/LightScheduler.s: Src/LightScheduler.c.s
 
 # target to generate assembly for a file
 Src/LightScheduler.c.s:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightScheduler.c.s
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/LightScheduler.c.s
 .PHONY : Src/LightScheduler.c.s
 
 Src/TimeServiceFake.obj: Src/TimeServiceFake.c.obj
@@ -212,7 +212,7 @@ Src/TimeServiceFake.obj: Src/TimeServiceFake.c.obj
 
 # target to build an object file
 Src/TimeServiceFake.c.obj:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/TimeServiceFake.c.obj
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/TimeServiceFake.c.obj
 .PHONY : Src/TimeServiceFake.c.obj
 
 Src/TimeServiceFake.i: Src/TimeServiceFake.c.i
@@ -220,7 +220,7 @@ Src/TimeServiceFake.i: Src/TimeServiceFake.c.i
 
 # target to preprocess a source file
 Src/TimeServiceFake.c.i:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/TimeServiceFake.c.i
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/TimeServiceFake.c.i
 .PHONY : Src/TimeServiceFake.c.i
 
 Src/TimeServiceFake.s: Src/TimeServiceFake.c.s
@@ -228,7 +228,7 @@ Src/TimeServiceFake.s: Src/TimeServiceFake.c.s
 
 # target to generate assembly for a file
 Src/TimeServiceFake.c.s:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/TimeServiceFake.c.s
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(MAKE) $(MAKESILENT) -f Test\CMakeFiles\Test.dir\build.make Test/CMakeFiles/Test.dir/Src/TimeServiceFake.c.s
 .PHONY : Src/TimeServiceFake.c.s
 
 # Help Target
@@ -263,6 +263,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\DAWIDZ~1\Desktop\HOMEAU~2\HOMEAU~1\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD
+# Install script for directory: C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/UnityFrameWork/cmake_install.cmake")
-  include("C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/Src/cmake_install.cmake")
-  include("C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/Includs/cmake_install.cmake")
-  include("C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/Test/cmake_install.cmake")
+  include("C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build/UnityFrameWork/cmake_install.cmake")
+  include("C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build/Src/cmake_install.cmake")
+  include("C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build/Includs/cmake_install.cmake")
+  include("C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build/Test/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

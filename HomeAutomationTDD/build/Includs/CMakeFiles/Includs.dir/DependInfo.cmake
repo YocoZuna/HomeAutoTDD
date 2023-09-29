@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/Includs/Src/Dumy.c" "Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj" "gcc" "Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj.d"
+  "C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/Includs/Src/Dumy.c" "Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj" "gcc" "Includs/CMakeFiles/Includs.dir/Src/Dumy.c.obj.d"
   )
 
 # Targets to which this target links.

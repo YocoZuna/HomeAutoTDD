@@ -13,7 +13,7 @@ static int16_t lastID,lastState;
 
 
 void LightController_Create(void);
-void LighController_Destroy(void);
+void LightController_Destroy(void);
 void LightController_On(int16_t id );
 void LightController_Off(int16_t id);
 int16_t LightControllerSpy_GetLastID(void);

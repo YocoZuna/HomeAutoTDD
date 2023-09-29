@@ -1,7 +1,7 @@
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj: \
- C:\Users\Dawid\ Zadlo\Desktop\HomeAutomationTDD\UnityFrameWork\unity_memory.c \
- C:\Users\Dawid\ Zadlo\Desktop\HomeAutomationTDD\UnityFrameWork\unity.h \
- C:\Users\Dawid\ Zadlo\Desktop\HomeAutomationTDD\UnityFrameWork\unity_internals.h \
+ C:\Users\Dawid\ Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\UnityFrameWork\unity_memory.c \
+ C:\Users\Dawid\ Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\UnityFrameWork\unity.h \
+ C:\Users\Dawid\ Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\UnityFrameWork\unity_internals.h \
  C:/msys64/mingw64/include/setjmp.h C:/msys64/mingw64/include/crtdefs.h \
  C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
@@ -19,7 +19,7 @@ UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj: \
  C:/msys64/mingw64/include/_mingw_off_t.h \
  C:/msys64/mingw64/include/swprintf.inl \
  C:/msys64/mingw64/include/sec_api/stdio_s.h \
- C:\Users\Dawid\ Zadlo\Desktop\HomeAutomationTDD\UnityFrameWork\unity_memory.h \
+ C:\Users\Dawid\ Zadlo\Desktop\HomeAutoTDD\HomeAutomationTDD\UnityFrameWork\unity_memory.h \
  C:/msys64/mingw64/include/stdlib.h \
  C:/msys64/mingw64/include/corecrt_wstdlib.h \
  C:/msys64/mingw64/include/sec_api/stdlib_s.h \

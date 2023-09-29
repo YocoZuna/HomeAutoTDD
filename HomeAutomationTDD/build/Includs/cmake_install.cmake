@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Dawid Zadlo/Desktop/HomeAutomationTDD/Includs
+# Install script for directory: C:/Users/Dawid Zadlo/Desktop/HomeAutoTDD/HomeAutomationTDD/Includs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
